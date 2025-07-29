@@ -9,7 +9,7 @@ module "eks" {
       desired_capacity = 1
       max_capacity     = 1
       min_capacity     = 1
-      instance_type    = "t3.micro"
+      instance_type    = "t2.micro"
     }
   }
   manage_aws_auth = true
