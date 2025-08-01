@@ -1,0 +1,2 @@
+
+# scripts/destroy.ps1
