@@ -1,6 +1,6 @@
 resource "helm_release" "sealed_secrets" {
   name       = "sealed-secrets-controller"
-  repository = "https://bitnami-labs.github.io/sealed-secrets"
+  repository = "https://bitnami-labs.github.io/sealed-secrets" // replace it with valid repo name...
   chart      = "sealed-secrets"
   namespace  = "kube-system"
   version    = "2.14.1"
